@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360">
+<rect width="1000" height="360" rx="24" fill="#0d1117"/>
+<text x="55" y="70" fill="#f0f6fc" font-family="monospace" font-size="30">$ paper2context paper.pdf</text>
+<text x="55" y="125" fill="#7ee787" font-family="monospace" font-size="24">✓ academic PDF inspected</text>
+<text x="55" y="165" fill="#7ee787" font-family="monospace" font-size="24">✓ sections + provenance recovered</text>
+<text x="55" y="205" fill="#7ee787" font-family="monospace" font-size="24">✓ AI-ready chunks generated</text>
+<text x="55" y="270" fill="#58a6ff" font-family="monospace" font-size="24">PAPER.md  PAPER_CONTEXT.md  chunks.jsonl</text>
+<text x="55" y="315" fill="#8b949e" font-family="monospace" font-size="20">No cloud · No account · No LLM required</text>
+</svg>

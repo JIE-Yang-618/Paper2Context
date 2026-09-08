@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If Paper2Context helps your research workflow, please cite the software release."
+title: "Paper2Context"
+type: software
+authors:
+  - family-names: Yang
+    given-names: Jie
+version: 0.1.0
+date-released: 2026-09-08
+license: MIT
+repository-code: "https://github.com/JIE-Yang-618/Paper2Context"
+abstract: "A local-first tool that converts born-digital academic PDFs into provenance-rich, AI-ready research context packs."

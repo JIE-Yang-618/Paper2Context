@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paper2context"
+version = "0.1.0"
+description = "Turn academic PDFs into provenance-rich, AI-ready research context packs."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "JIE Yang"}]
+dependencies = ["pdfplumber>=0.11.9,<0.12", "pypdf>=6.0,<7"]
+keywords = ["pdf", "research", "academic", "llm", "context", "local-first", "markdown"]
+classifiers = ["Programming Language :: Python :: 3", "Operating System :: OS Independent", "Topic :: Scientific/Engineering :: Information Analysis"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-cov>=5", "ruff>=0.9", "reportlab>=4", "pillow>=10"]
+
+[project.scripts]
+paper2context = "paper2context.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
